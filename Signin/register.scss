@@ -1,0 +1,109 @@
+.register{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    margin-left: auto;
+}
+.register-form{
+    padding-top: 40px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.register-title{
+    padding-top: 10%;
+}
+.register-title h1{
+    font-size: 50px;
+    color: rgb(61, 0, 117);
+    font-weight: 900;
+}
+.register-title h4{
+    color: gray;
+    font-weight: 400;
+    word-spacing: 1px;
+}
+.register-input{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-top: 50px;
+}
+.register-input .input-left{
+    width: 48%;
+    margin-right: 4%;
+}
+.register-input .input-right{
+    width: 48%;
+}
+.register-input a{
+    margin-top: 5px;
+    color: indigo;
+    font-size: 13px;
+}
+.register-input input{
+    margin-top: 15px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+textarea:focus, select:focus{
+    outline: none;
+}
+::placeholder { 
+    color: rgb(180, 180, 180);
+    opacity: 1; 
+    letter-spacing: 0.1mm;
+    font-size: 15px;
+  }
+.select{
+    margin-top: 15px;
+    height: 38px;
+    border: none;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    font-size: 15px;
+}
+.selected{
+    display: none;
+    color: rgb(180, 180, 180);
+}
+.register-submit{
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+}
+.register-submit p{
+    color: gray;
+    font-size: 15px;
+}
+input[type="checkbox"]{
+    align-self: center;
+    margin-right: 25px;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+}
+.iamnotrobot{
+    margin-top: 25px;
+    display: flex;
+    width: 100%;
+}
+.register-btn{
+    width: 100%;
+    margin-top: 25px;
+}
+.register-btn button:hover{
+    background-color: rgb(226, 111, 4);
+}
+.register-btn button{
+    background-color: rgb(240, 117, 2);
+    padding: 9px 35px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
